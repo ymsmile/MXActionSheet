@@ -1,4 +1,5 @@
 ## How to use?
+UIActionSheet usage is the same as
 ```objective-c
 #import "MXActionSheet.h"
 
