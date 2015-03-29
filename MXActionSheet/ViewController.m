@@ -38,7 +38,7 @@
 
 #pragma mark - MXActionSheetDelegate
 
-- (void)actionSheet:(MXActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex{
+- (void)actionSheet:(MXActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
     NSLog(@"%@",@(buttonIndex));
 }
 
