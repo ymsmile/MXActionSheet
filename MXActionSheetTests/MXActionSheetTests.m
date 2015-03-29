@@ -2,7 +2,7 @@
 //  MXActionSheetTests.m
 //  MXActionSheetTests
 //
-//  Created by XuYanming on 3/29/15.
+//  Created by Michael Tianlin on 3/29/15.
 //  Copyright (c) 2015 TianLinlin. All rights reserved.
 //
 

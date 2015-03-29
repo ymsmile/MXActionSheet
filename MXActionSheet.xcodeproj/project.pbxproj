@@ -14,6 +14,7 @@
 		F31C3DCB1AC7AC0900F78A71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31C3DCA1AC7AC0900F78A71 /* Images.xcassets */; };
 		F31C3DCE1AC7AC0900F78A71 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F31C3DCC1AC7AC0900F78A71 /* LaunchScreen.xib */; };
 		F31C3DDA1AC7AC0900F78A71 /* MXActionSheetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F31C3DD91AC7AC0900F78A71 /* MXActionSheetTests.m */; };
+		F31C3DE51AC7AC2C00F78A71 /* MXActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = F31C3DE41AC7AC2C00F78A71 /* MXActionSheet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F31C3DD31AC7AC0900F78A71 /* MXActionSheetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MXActionSheetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F31C3DD81AC7AC0900F78A71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F31C3DD91AC7AC0900F78A71 /* MXActionSheetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXActionSheetTests.m; sourceTree = "<group>"; };
+		F31C3DE31AC7AC2C00F78A71 /* MXActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXActionSheet.h; sourceTree = "<group>"; };
+		F31C3DE41AC7AC2C00F78A71 /* MXActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXActionSheet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		F31C3DBC1AC7AC0900F78A71 /* MXActionSheet */ = {
 			isa = PBXGroup;
 			children = (
+				F31C3DE61AC7AC3100F78A71 /* Custom View */,
 				F31C3DC11AC7AC0900F78A71 /* AppDelegate.h */,
 				F31C3DC21AC7AC0900F78A71 /* AppDelegate.m */,
 				F31C3DC41AC7AC0900F78A71 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				F31C3DD81AC7AC0900F78A71 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F31C3DE61AC7AC3100F78A71 /* Custom View */ = {
+			isa = PBXGroup;
+			children = (
+				F31C3DE31AC7AC2C00F78A71 /* MXActionSheet.h */,
+				F31C3DE41AC7AC2C00F78A71 /* MXActionSheet.m */,
+			);
+			name = "Custom View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +234,7 @@
 			files = (
 				F31C3DC61AC7AC0900F78A71 /* ViewController.m in Sources */,
 				F31C3DC31AC7AC0900F78A71 /* AppDelegate.m in Sources */,
+				F31C3DE51AC7AC2C00F78A71 /* MXActionSheet.m in Sources */,
 				F31C3DC01AC7AC0900F78A71 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MXActionSheet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MXActionSheet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
